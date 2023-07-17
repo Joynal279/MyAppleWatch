@@ -22,8 +22,14 @@ struct ContentView: View {
                         .padding(.top, 10)
                         .buttonStyle(.plain)
                 }
+            Text(emojiSentence.text)
+                .font(.caption)
+                .padding(.top, 20)
         }
         .padding()
+        .onTapGesture {
+            emojiSentence.next()
+        }
     }
 }
 
