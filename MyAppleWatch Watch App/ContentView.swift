@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var emojiSentence = EmojiSentence()
+    
     var body: some View {
         VStack {
             Image("cookie")
                 .resizable()
                 .scaledToFit()
+                .overlay {
+                    Text(emojiSentence.emoji)
+                        .font(.title3)
+                        .padding(.top, 10)
+                        .buttonStyle(.plain)
+                }
         }
         .padding()
     }

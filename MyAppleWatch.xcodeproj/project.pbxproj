@@ -12,6 +12,7 @@
 		041C60DF2A64D154007C47A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C60DE2A64D154007C47A4 /* ContentView.swift */; };
 		041C60E12A64D157007C47A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C60E02A64D157007C47A4 /* Assets.xcassets */; };
 		041C60E42A64D157007C47A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C60E32A64D157007C47A4 /* Preview Assets.xcassets */; };
+		041C60EF2A64D70E007C47A4 /* EmojiSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C60EE2A64D70E007C47A4 /* EmojiSentence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		041C60DE2A64D154007C47A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		041C60E02A64D157007C47A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C60E32A64D157007C47A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041C60EE2A64D70E007C47A4 /* EmojiSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiSentence.swift; path = ../../../../Downloads/EmojiSentence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				041C60DC2A64D154007C47A4 /* MyAppleWatchApp.swift */,
+				041C60EE2A64D70E007C47A4 /* EmojiSentence.swift */,
 				041C60DE2A64D154007C47A4 /* ContentView.swift */,
 				041C60E02A64D157007C47A4 /* Assets.xcassets */,
 				041C60E22A64D157007C47A4 /* Preview Content */,
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C60EF2A64D70E007C47A4 /* EmojiSentence.swift in Sources */,
 				041C60DF2A64D154007C47A4 /* ContentView.swift in Sources */,
 				041C60DD2A64D154007C47A4 /* MyAppleWatchApp.swift in Sources */,
 			);
